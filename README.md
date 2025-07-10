@@ -15,9 +15,6 @@ This is a simple recipe search app built using HTML, CSS, and JavaScript. It fet
 - Font Awesome
 - Spoonacular API
 
-## 📸 Screenshot
-
-
 ## 🚀 How to Run
 1. Download the project
 2. Open `index.html` in your browser
