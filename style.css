@@ -58,13 +58,14 @@ form button[type="submit"]:hover,
 }
 /*Main section*/
 .recipe-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh; /* take up 80% of screen height */
-    text-align: center;
-    flex-direction: column;
-    color: #333;
+    text-align:center;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:40px;
+    width:80%;
+    margin:10px auto;
+    padding:20px;
+    place-items:center;
 }
 
 .recipe{
